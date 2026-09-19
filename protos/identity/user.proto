@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package identity;
+
+import "identity/cosmetic_user.proto";
+import "identity/principal.proto";
+
+message User {
+  Principal principal = 1;
+  CosmeticUser cosmetic = 2;
+}

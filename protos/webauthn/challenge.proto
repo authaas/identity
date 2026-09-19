@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package webauthn;
+
+message Challenge {
+  bytes value = 1;
+}
