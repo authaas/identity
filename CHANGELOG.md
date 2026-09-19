@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## 0.1.1 - 2026-09-19
+#### Bug Fixes
+- trying to validate - (97ed8b9) - Nathan Blair
+- try pushing - (8bdd5be) - Nathan Blair
+
+- - -
+
 ## 0.1.0 - 2026-09-19
 #### Features
 - initial release - (f191c70) - Nathan Blair
