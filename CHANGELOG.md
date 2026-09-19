@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## 0.1.2 - 2026-09-19
+#### Bug Fixes
+- add docs - (cbb2113) - Nathan Blair
+#### Continuous Integration
+- don't push on CI - (3abd455) - Nathan Blair
+
+- - -
+
 ## 0.1.1 - 2026-09-19
 #### Bug Fixes
 - trying to validate - (97ed8b9) - Nathan Blair
