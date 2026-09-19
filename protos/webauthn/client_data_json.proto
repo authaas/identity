@@ -5,5 +5,5 @@ package webauthn;
 // ClientDataJson is the exact bytes the authenticator signed over, never
 // parsed and re-serialized. Verification hashes these bytes as they are.
 message ClientDataJson {
-  bytes value = 1;
+  bytes bytes = 1;
 }

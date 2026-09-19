@@ -7,5 +7,5 @@ package webauthn;
 // that exact value is durable on the credential it was issued for, and is
 // consumed by the assertion that answers it.
 message Challenge {
-  bytes value = 1;
+  bytes bytes = 1;
 }

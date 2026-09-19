@@ -4,7 +4,7 @@ package identity;
 
 // CosmeticUser is what the registering caller supplied, kept as supplied.
 // Neither field establishes identity or affects authorization.
-message CosmeticUser {
+message Profile {
   string name = 1;
   string display_name = 2;
 }

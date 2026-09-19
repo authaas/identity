@@ -2,12 +2,12 @@ syntax = "proto3";
 
 package identity;
 
-import "identity/cosmetic_user.proto";
 import "identity/principal.proto";
+import "identity/profile.proto";
 
 // User is a principal with what it was registered as: the WebAuthn user
 // entity.
 message User {
   Principal principal = 1;
-  CosmeticUser cosmetic = 2;
+  Profile profile = 2;
 }

@@ -6,5 +6,5 @@ package webauthn;
 // registration, never re-encoded. Verification decodes it; the public key,
 // sign count, and flags it carries are read from it, never stored beside it.
 message AttestationObject {
-  bytes value = 1;
+  bytes bytes = 1;
 }
