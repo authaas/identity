@@ -17,7 +17,7 @@ jobs:
     uses: katastroma/skeuotheke/.github/workflows/version-check.yaml@v0
 
   validate:
-    name: CI
+    name: CI / Buf
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -25,9 +25,10 @@ jobs:
         with:
           ref: ${{ github.ref_name }}
 
-      - name: Buf
+      - name: Validate
         uses: bufbuild/buf-action@v1
         with:
+          token: ${{ secrets.BUF_TOKEN }}
           lint: true
           format: true
 
