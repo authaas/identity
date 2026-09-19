@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## 0.1.5 - 2026-09-19
+#### Bug Fixes
+- more accurate field name for grant hash - (06e7fbc) - Nathan Blair
+
+- - -
+
 ## 0.1.4 - 2026-09-19
 #### Bug Fixes
 - better nested type and name - (a90f85d) - Nathan Blair
