@@ -31,6 +31,7 @@ jobs:
           token: ${{ secrets.BUF_TOKEN }}
           lint: true
           format: true
+          push: false
 
   version:
     name: CI
