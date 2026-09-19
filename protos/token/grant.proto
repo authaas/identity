@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package token;
+
+message Grant {
+  bytes value = 1;
+}

@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-package webauthn;
-
-// ClientDataJson is the exact bytes the authenticator signed over, never
-// parsed and re-serialized. Verification hashes these bytes as they are.
-message ClientDataJson {
-  bytes bytes = 1;
-}
