@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## 0.2.0 - 2026-09-19
+#### Features
+- remove webauthn; add token Grant - (5882141) - Nathan Blair
+
+- - -
+
 ## 0.1.6 - 2026-09-19
 #### Bug Fixes
 - revert to typed RpId - (2b38e9b) - Nathan Blair
