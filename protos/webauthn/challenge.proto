@@ -2,6 +2,12 @@ syntax = "proto3";
 
 package webauthn;
 
+option go_package = "github.com/authaas/types/webauthn";
+
+// Challenge is a fixed-size cryptographically random value the server
+// generated for one ceremony. A login challenge leaves the server only after
+// that exact value is durable on the credential it was issued for, and is
+// consumed by the assertion that answers it.
 message Challenge {
   bytes value = 1;
 }
