@@ -20,3 +20,6 @@ jobs:
 
       - name: Buf
         uses: bufbuild/buf-action@v1
+        with:
+          token: ${{ secrets.BUF_TOKEN }}
+          push: true

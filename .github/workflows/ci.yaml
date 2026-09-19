@@ -16,9 +16,24 @@ jobs:
     name: CI
     uses: katastroma/skeuotheke/.github/workflows/version-check.yaml@v0
 
+  validate:
+    name: CI
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Buf
+        uses: bufbuild/buf-action@v1
+        with:
+          lint: true
+          format: true
+
   version:
     name: CI
-    needs: [commit-check, version-check]
+    needs: [commit-check, version-check, validate]
     uses: katastroma/skeuotheke/.github/workflows/version.yaml@v0
     permissions:
       contents: write

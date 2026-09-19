@@ -2,6 +2,6 @@ syntax = "proto3";
 
 package webauthn;
 
-message GrantHash {
+message AttestationObject {
   bytes value = 1;
 }

@@ -1,3 +1,12 @@
 syntax = "proto3";
 
 package webauthn;
+
+import "webauthn/attestation_object.proto";
+import "webauthn/client_data_json.proto";
+
+message AuthenticatorAttestationResponse {
+  ClientDataJson client_data_json = 1;
+  AttestationObject attestation_object = 2;
+  repeated string transports = 3;
+}
