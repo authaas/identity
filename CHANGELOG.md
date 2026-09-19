@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## 0.1.4 - 2026-09-19
+#### Bug Fixes
+- better nested type and name - (a90f85d) - Nathan Blair
+
+- - -
+
 ## 0.1.3 - 2026-09-19
 #### Bug Fixes
 - publish without go_package option - (ca4b108) - Nathan Blair
