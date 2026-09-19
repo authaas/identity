@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## 0.3.0 - 2026-09-19
+#### Features
+- token moves out - (93ae113) - Nathan Blair
+
+- - -
+
 ## 0.2.0 - 2026-09-19
 #### Features
 - remove webauthn; add token Grant - (5882141) - Nathan Blair
