@@ -1,8 +1,0 @@
-syntax = "proto3";
-
-package webauthn;
-
-// RP is the relying party a ceremony was issued under.
-message RP {
-  string id = 1;
-}
