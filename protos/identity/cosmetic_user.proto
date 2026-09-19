@@ -2,8 +2,6 @@ syntax = "proto3";
 
 package identity;
 
-option go_package = "github.com/authaas/types/identity";
-
 // CosmeticUser is what the registering caller supplied, kept as supplied.
 // Neither field establishes identity or affects authorization.
 message CosmeticUser {

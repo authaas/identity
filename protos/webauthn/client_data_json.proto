@@ -2,8 +2,6 @@ syntax = "proto3";
 
 package webauthn;
 
-option go_package = "github.com/authaas/types/webauthn";
-
 // ClientDataJson is the exact bytes the authenticator signed over, never
 // parsed and re-serialized. Verification hashes these bytes as they are.
 message ClientDataJson {

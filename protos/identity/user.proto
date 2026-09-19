@@ -5,8 +5,6 @@ package identity;
 import "identity/cosmetic_user.proto";
 import "identity/principal.proto";
 
-option go_package = "github.com/authaas/types/identity";
-
 // User is a principal with what it was registered as: the WebAuthn user
 // entity.
 message User {

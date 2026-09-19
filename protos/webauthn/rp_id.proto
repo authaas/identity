@@ -2,8 +2,6 @@ syntax = "proto3";
 
 package webauthn;
 
-option go_package = "github.com/authaas/types/webauthn";
-
 // RpId is the relying party identifier a ceremony was issued under: the
 // browser-facing application's, from trusted configuration, never an internal
 // hostname or a forwarded header.

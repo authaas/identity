@@ -2,8 +2,6 @@ syntax = "proto3";
 
 package token;
 
-option go_package = "github.com/authaas/types/token";
-
 // GrantHash is the SHA-256 digest of a grant's exact bytes, with no salt and
 // no key derivation. It is what is stored for a principal's outstanding grant
 // and what a presented grant is compared against; it yields nothing without

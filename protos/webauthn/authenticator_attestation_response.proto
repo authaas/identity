@@ -5,8 +5,6 @@ package webauthn;
 import "webauthn/attestation_object.proto";
 import "webauthn/client_data_json.proto";
 
-option go_package = "github.com/authaas/types/webauthn";
-
 // AuthenticatorAttestationResponse is the authenticator's answer to the
 // registration ceremony, and the registration evidence retained for it.
 message AuthenticatorAttestationResponse {

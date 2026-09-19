@@ -2,8 +2,6 @@ syntax = "proto3";
 
 package webauthn;
 
-option go_package = "github.com/authaas/types/webauthn";
-
 // AttestationObject is the exact bytes the authenticator returned at
 // registration, never re-encoded. Verification decodes it; the public key,
 // sign count, and flags it carries are read from it, never stored beside it.
