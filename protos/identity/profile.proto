@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package identity;
 
-// CosmeticUser is what the registering caller supplied, kept as supplied.
+// Profile is what the registering caller supplied, kept as supplied.
 // Neither field establishes identity or affects authorization.
 message Profile {
   string name = 1;
