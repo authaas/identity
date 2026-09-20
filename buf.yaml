@@ -2,7 +2,7 @@ version: v2
 
 modules:
   - path: protos
-    name: buf.build/authaas/types
+    name: buf.build/authaas/identity
 
 lint:
   use:
