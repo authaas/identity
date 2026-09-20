@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## 0.4.0 - 2026-09-20
+#### Features
+- change module name - (952f31a) - Nathan Blair
+#### Documentation
+- correct docs - (091c87e) - Nathan Blair
+
+- - -
+
 ## 0.3.0 - 2026-09-19
 #### Features
 - token moves out - (93ae113) - Nathan Blair
