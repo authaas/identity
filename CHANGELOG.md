@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## 0.5.0 - 2026-09-20
+#### Features
+- lose User definition - (550408e) - Nathan Blair
+
+- - -
+
 ## 0.4.0 - 2026-09-20
 #### Features
 - change module name - (952f31a) - Nathan Blair
