@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## 0.6.0 - 2026-09-22
+#### Features
+- identity.ID to align with remaining ecosystem - (df24df7) - Nathan Blair
+
+- - -
+
 ## 0.5.0 - 2026-09-20
 #### Features
 - lose User definition - (550408e) - Nathan Blair
