@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package identity;
+
+// ID is the identifier of an identity.
+message ID {
+  // A UUIDv4 in its canonical 36-character form.
+  string value = 1;
+}
