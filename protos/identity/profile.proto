@@ -2,8 +2,7 @@ syntax = "proto3";
 
 package identity;
 
-// Profile is what the registering caller supplied, kept as supplied.
-// Neither field establishes identity or affects authorization.
+// Profile is how an identity is shown.
 message Profile {
   string name = 1;
   string display_name = 2;
